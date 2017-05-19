@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Bronco Shuttle Adviser</string>
+
+    <string-array name="rte_a">
+        <item>University Village Entrance</item>
+        <item>University Village</item>
+        <item>S. Campus/Temple</item>
+        <item>Innovation Village</item>
+        <item>Innovation Way at IBW</item>
+        <item>Bldg 7</item>
+        <item>Bldg 94</item>
+        <item>Rose Garden</item>
+        <item>Bldg 91</item>
+        <item>CLA</item>
+        <item>Old Parking Structure</item>
+        <item>Univ. Dr./F2 Lot</item>
+        <item>Cedritos Residence Hall</item>
+        <item>Bldg 1</item>
+        <item>Student Health Services</item>
+    </string-array>
+
+    <string-array name="rte_b">
+        <item>Bldg 89</item>
+        <item>Oak Lane/F Lots</item>
+        <item>Cypress Lane/F Lots</item>
+        <item>Cedritos Residence Hall</item>
+        <item>Bldg 1</item>
+        <item>Student Health Services</item>
+        <item>Kellog West Southbound</item>
+        <item>Farm Store</item>
+        <item>Kellog West Northbound</item>
+        <item>Bldg 7</item>
+        <item>Bldg 94</item>
+        <item>Rose Garden</item>
+        <item>Police/PTS</item>
+        <item>Arabian Horse Center</item>
+    </string-array>
+
+    <string-array name="rte_b2">
+        <item>Bldg 89</item>
+        <item>Oak Lane/F Lots</item>
+        <item>Cypress Lane/F Lots</item>
+        <item>Cedritos Residence Hall</item>
+        <item>Bldg 1</item>
+        <item>Student Health Services</item>
+        <item>Kellog West Southbound</item>
+        <item>Lyle Center</item>
+        <item>Farm Store</item>
+        <item>Kellog West Northbound</item>
+        <item>Bldg 7</item>
+        <item>Bldg 94</item>
+        <item>Rose Garden</item>
+        <item>Police/PTS</item>
+        <item>Arabian Horse Center</item>
+    </string-array>
+
+    <string-array name="rte_c">
+        <item>Parking Lot B</item>
+        <item>New Parking Structure SE</item>
+        <item>New Parking Structure NE</item>
+        <item>Camphor Lane/Lot M</item>
+        <item>Campus Center Marketplace</item>
+        <item>Camphor Lane</item>
+        <item>New Parking Structure NW</item>
+        <item>New Parking Structure SW</item>
+    </string-array>
+
+    <string-array name="rte_all">
+        <item>University Village Entrance</item>
+        <item>University Village</item>
+        <item>S. Campus/Temple</item>
+        <item>Innovation Village</item>
+        <item>Innovation Way at IBW</item>
+        <item>Bldg 7</item>
+        <item>Bldg 94</item>
+        <item>Rose Garden</item>
+        <item>Bldg 91</item>
+        <item>CLA</item>
+        <item>Old Parking Structure</item>
+        <item>Univ. Dr./F2 Lot</item>
+        <item>Cedritos Residence Hall</item>
+        <item>Bldg 1</item>
+        <item>Student Health Services</item>
+        <item>Bldg 89</item>
+        <item>Oak Lane/F Lots</item>
+        <item>Cypress Lane/F Lots</item>
+        <item>Kellog West Southbound</item>
+        <item>Lyle Center</item>
+        <item>Farm Store</item>
+        <item>Kellog West Northbound</item>
+        <item>Police/PTS</item>
+        <item>Arabian Horse Center</item>
+        <item>Parking Lot B</item>
+        <item>New Parking Structure SE</item>
+        <item>New Parking Structure NE</item>
+        <item>Camphor Lane/Lot M</item>
+        <item>Campus Center Marketplace</item>
+        <item>Camphor Lane</item>
+        <item>New Parking Structure NW</item>
+        <item>New Parking Structure SW</item>
+    </string-array>
+
+    <string-array name="route_lists">
+        <item>All Routes</item>
+        <item>Route A</item>
+        <item>Route B</item>
+        <item>Route B2</item>
+        <item>Route C</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,230 @@
+{
+  "Locations": [
+    {
+      "Name": "University Village Entrance",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/332423/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "University Village",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/36365/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "S. Campus/Temple",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/36359/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/36359/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/36359/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Innovation Village",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/486769/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "Innovation Way at IBW",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/1592165/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "Bldg 7",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/48396/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/48396/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/48396/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Bldg 94",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/33803/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/33803/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/33803/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Rose Garden",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/33817/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/33817/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/33817/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Bldg 91",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/33835/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "CLA",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/33851/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "Old Parking Structure",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/486770/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "Univ. Dr./F2 Lot",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/486771/Arrivals?customerID=21",
+      "B": null,
+      "B2": null,
+      "C": null
+    },
+    {
+      "Name": "Cedritos Residence Hall",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/486772/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/486772/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/486772/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Bldg 1",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/486773/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/486773/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/486773/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Student Health Services",
+      "A": "https://broncoshuttle.com/Route/3164/Stop/34999/Arrivals?customerID=21",
+      "B": "https://broncoshuttle.com/Route/4512/Stop/34999/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/34999/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Bldg 89",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/487167/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/487167/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Oak Lane/F Lots",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/485416/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/485416/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Cypress Lane/F Lots",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/487168/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/487168/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Kellog West Southbound",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/1231738/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/1231738/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Farm Store",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/487171/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/487171/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Kellog West Northbound",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/485601/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/485601/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Police/PTS",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/487173/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/487173/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Arabian Horse Center",
+      "A": null,
+      "B": "https://broncoshuttle.com/Route/4512/Stop/2277536/Arrivals?customerID=21",
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/2277536/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Lyle Center",
+      "A": null,
+      "B": null,
+      "B2": "https://broncoshuttle.com/Route/4513/Stop/487170/Arrivals?customerID=21",
+      "C": null
+    },
+    {
+      "Name": "Parking Lot B",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/35317/Arrivals?customerID=21"
+    },
+    {
+      "Name": "New Parking Structure SE",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/2310798/Arrivals?customerID=21"
+    },
+    {
+      "Name": "New Parking Structure NE",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/2310799/Arrivals?customerID=21"
+    },
+    {
+      "Name": "Camphor Lane/Lot M",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/35348/Arrivals?customerID=21"
+    },
+    {
+      "Name": "Campus Center Marketplace",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/35362/Arrivals?customerID=21"
+    },
+    {
+      "Name": "Camphor Lane",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/35377/Arrivals?customerID=21"
+    },
+    {
+      "Name": "New Parking Structure NW",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/2310800/Arrivals?customerID=21"
+    },
+    {
+      "Name": "New Parking Structure SW",
+      "A": null,
+      "B": null,
+      "B2": null,
+      "C": "https://broncoshuttle.com/Route/4515/Stop/2310801/Arrivals?customerID=21"
+    }
+  ]
+}
+
+
