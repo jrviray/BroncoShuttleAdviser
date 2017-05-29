@@ -11,4 +11,4 @@ The bronco Shuttle Adviser takes the information originally available on the Bro
 
 ## Copyright
 
-Copyright Joshua R. viray 2017 
+Copyright Joshua R. Viray 2017 
