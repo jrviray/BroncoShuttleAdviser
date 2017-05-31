@@ -176,7 +176,6 @@ public class JSONParser {
                 //arriveTime = jObj.getString("ArriveTime");
                 message = "A " + routeName + " bus will arrive in " + minutes + " minutes.";
                 //arrivalTimes.add(message);
-
             }
         } catch (JSONException e) {
             Log.e("JSONException", "Error: " + e.toString());
@@ -191,7 +190,9 @@ public class JSONParser {
         ArrayList<String> arrivalTimes = new ArrayList<>();
         ArrayList<String> JSONStrings = buildJSONStrings(links);
         for (int i = 0; i < JSONStrings.size(); i++){
-            arrivalTimes.add(getArrivalMessages(JSONStrings.get(i).toString()));
+            if(getArrivalMessages(JSONStrings.get(i).toString()).equals("") == false){
+                arrivalTimes.add(getArrivalMessages(JSONStrings.get(i).toString()));
+            }
         }
         return arrivalTimes;
     }
