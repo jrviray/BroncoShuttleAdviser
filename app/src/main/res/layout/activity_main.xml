@@ -1,59 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#40bf80">
 
     <TextView
         android:id="@+id/tv_currentTime"
-        android:text="Current time:"
-        android:layout_gravity="center"
-        android:textColor="#000000"
-        android:textSize="18dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Current time:"
+        android:textColor="#000000"
+        android:textSize="18dp" />
 
     <TextClock
         android:id="@+id/text_clock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textSize="50dp"
         android:layout_gravity="center"
-        />
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="50dp" />
 
     <Spinner
         android:id="@+id/spinner_routeList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
 
     <Spinner
         android:id="@+id/spinner_stopList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
 
     <Button
-        android:id="@+id/b_stopInfo"
-        android:text="Get Stop Info"
+        android:id="@+id/b_arrivalRefresh"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Refresh Arrival Times" />
 
     <ListView
         android:id="@+id/lv_arrivalTimes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" />
 
     <!--<TextView-->
-        <!--android:id="@+id/tv_busList"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text=" Hello World!"/>-->
+    <!--android:id="@+id/tv_busList"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text=" Hello World!"/>-->
 
     <!--<fragment-->
-        <!--android:id="@+id/map_fragment"-->
-        <!--android:name="com.google.android.gms.maps.MapFragment"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_weight="1"-->
-        <!--android:layout_below="@+id/searchView" />-->
+    <!--android:id="@+id/map_fragment"-->
+    <!--android:name="com.google.android.gms.maps.MapFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_below="@+id/searchView" />-->
 
 </LinearLayout>

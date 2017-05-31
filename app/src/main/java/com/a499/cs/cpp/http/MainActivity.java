@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Spinner routeList = (Spinner) findViewById(R.id.spinner_routeList);
         final Spinner stopList = (Spinner) findViewById(R.id.spinner_stopList);
-        final Button b_stopInfo = (Button) findViewById(R.id.b_stopInfo);
+        final Button refresh = (Button) findViewById(R.id.b_arrivalRefresh);
         final ListView lv_arrivalTimes = (ListView) findViewById(R.id.lv_arrivalTimes);
 
         populateRoutes(routeList);
@@ -53,11 +53,13 @@ public class MainActivity extends AppCompatActivity {
                 ArrayList<String> arrivalTimes = new ArrayList<>();
                 try {
                     arrivalTimes = new GetBusInfo(routeList.getSelectedItem().toString(), parent.getSelectedItem().toString(), getBaseContext()).execute().get();
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (ExecutionException e) {
                     e.printStackTrace();
                 }
+                emptyCheck(arrivalTimes);
                 ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, arrivalTimes);
                 lv_arrivalTimes.setAdapter(arrayAdapter);
             }
@@ -66,6 +68,32 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /**
+         * Listen for refresh press
+         */
+        refresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ArrayList<String> arrivalTimes = new ArrayList<>();
+                try {
+                    arrivalTimes = new GetBusInfo(routeList.getSelectedItem().toString(), stopList.getSelectedItem().toString(), getBaseContext()).execute().get();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                }
+                emptyCheck(arrivalTimes);
+                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, arrivalTimes);
+                lv_arrivalTimes.setAdapter(arrayAdapter);
+            }
+        });
+
+    }
+
+    public void emptyCheck(ArrayList<String> arrayList){
+        if (arrayList.size() == 0){
+            arrayList.add("There are currently no arrival times available.");
+        }
     }
 
     /**
